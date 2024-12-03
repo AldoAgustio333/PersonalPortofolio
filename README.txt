@@ -1,0 +1,1 @@
+simpan lah file ini di folder berikut : C:\xampp\htdocs\

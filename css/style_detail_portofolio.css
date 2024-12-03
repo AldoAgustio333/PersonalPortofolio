@@ -20,11 +20,11 @@
     --main-color: #ffbe2e;
 } */
 :root {
-    --bg-color: #081b29;
-    --secound-bg-color: #ededed;
+    --bg-color: #01796F;
+    --secound-bg-color: #98FB98;
     --text-color: #ededed;
+    --main-color: #4CBB17;
     --secound-text-color: #000;
-    --main-color: #00abf0;
 }
 
 html {

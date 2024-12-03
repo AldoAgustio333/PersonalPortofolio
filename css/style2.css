@@ -20,10 +20,10 @@
     --main-color: #ffbe2e;
 } */
 :root {
-    --bg-color: #081b29;
-    --secound-bg-color: #112e42;
+    --bg-color: #01796F;
+    --secound-bg-color: #98FB98;
     --text-color: #ededed;
-    --main-color: #00abf0;
+    --main-color: #4CBB17;
 }
 
 html {
@@ -73,7 +73,7 @@ span {
 }
 
 .about-img img {
-    width: 25vw;
+    width: 15vw;
     align-self: center;
 }
 
@@ -106,7 +106,6 @@ span {
 }
 
 .skill-content {
-   
     display: flex;
     flex-direction: column;
     min-height: auto;
@@ -125,6 +124,10 @@ span {
    margin-top: 3rem;
 }
 
+.skill-content .heading {
+    color : #212121;
+ }
+
 .tab {
     display: flex;
     margin: 20px 0 40px;
@@ -132,7 +135,8 @@ span {
 }
 .tab p{
     font-size: 2rem;
-    
+    color : #212121;
+    font-weight: 600;
 }
 
 .tab-links {
@@ -141,6 +145,14 @@ span {
     font-weight: 500;
     cursor: pointer;
     position: relative;
+}
+
+.titleSkill{
+    color : #212121;
+    font-weight: 400;
+}
+.titleSkill p{
+    color : #212121;
 }
 
 .tab-links::after{
@@ -165,8 +177,9 @@ span {
 }
 
 .tab-contents ul li span{
-    color: #00abf0;
+    color: var(--main-color);
     font-size: 2rem;
+    font-weight: 400;
 }
 
 .tab-contents ul li p{

@@ -56,14 +56,14 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 // ====================typed Reveal===============================
 const typed = new Typed(".multiple-text", {
-  strings: ["Android Developer", "Graphic Designer"],
+  strings: ["Website Developer", "Graphic Designer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
   loop: true,
 });
 const typed2 = new Typed(".multiple-text2", {
-  strings: ["Android Developer", "Graphic Designer"],
+  strings: ["Website Developer", "Graphic Designer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -85,7 +85,7 @@ document
 
     var whatsappURL =
       "https://wa.me/" +
-      "+6282127602881" +
+      "+6282299561356" +
       "?text=" +
       encodeURIComponent(message);
 
@@ -102,33 +102,29 @@ document
 
   function pindahKeHalamanDetailPortofolio1() {
     // Menggunakan window.location.href untuk mengarahkan ke halaman lain
-    window.location.href = "detail_portofolio1.html";
+    window.location.href = "detail_portofolio.html";
   }
-// document.getElementById("fb").addEventListener("click", function() {
-//     window.location.href = "https://www.facebook.com/SnivhJr/";
-//   });
+document.getElementById("fb").addEventListener("click", function() {
+    window.location.href = "https://www.facebook.com/aldo.agustio.3/";
+  });
 
-// document.getElementById("ig").addEventListener("click", function() {
-//     window.location.href = "https://www.instagram.com/vildanvinanda/";
-//   });
+document.getElementById("ig").addEventListener("click", function() {
+    window.location.href = "https://www.instagram.com/gustioaldo/";
+  });
 
-//   document.getElementById("git").addEventListener("click", function() {
-//     window.location.href = "https://github.com/vildanvinanda";
-//   });
+  document.getElementById("git").addEventListener("click", function() {
+    window.location.href = "https://github.com/AldoAgustio333/";
+  });
   
-// //   document.getElementById("linkedin").addEventListener("click", function() {
-// //     window.location.href =
-// //       "https://www.linkedin.com/in/vildan-vinanda-96a690190/edit/forms/contact-info/new/?profileFormEntryPoint=PROFILE_TOP_CARD_EDIT_FORM";
-// //   });
 
-//   document.getElementById("yt").addEventListener("click", function() {
-//     window.location.href =
-//       "https://www.youtube.com/channel/UCb1xvGdoC-bJWQnNNdOastA";
-//   });
+  document.getElementById("yt").addEventListener("click", function() {
+    window.location.href =
+      "https://www.youtube.com/@aldoagustio816";
+  });
 
-// document.getElementById("wa").addEventListener("click", function() {
-//     var nomorTelepon = "082127602881"; // Ganti dengan nomor telepon yang sesuai
-//     var tautanWhatsApp = "https://api.whatsapp.com/send?phone=" + nomorTelepon;
-//     window.location.href = tautanWhatsApp;
-// });
+document.getElementById("wa").addEventListener("click", function() {
+    var nomorTelepon = "082299561356"; 
+    var tautanWhatsApp = "https://api.whatsapp.com/send?phone=" + nomorTelepon;
+    window.location.href = tautanWhatsApp;
+});
 
